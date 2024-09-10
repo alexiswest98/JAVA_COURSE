@@ -1,0 +1,85 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MakingChange",
+            "request": "launch",
+            "mainClass": "MakingChange",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
+            "name": "example",
+            "request": "launch",
+            "mainClass": "Ch2.example",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
+            "name": "ScannerEx",
+            "request": "launch",
+            "mainClass": "ScannerEx",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
+            "name": "SandwichShop",
+            "request": "launch",
+            "mainClass": "SandwichShop",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
+            "name": "example",
+            "request": "launch",
+            "mainClass": "Ch3.example",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
+            "name": "ProgrammingAssignment3",
+            "request": "launch",
+            "mainClass": "ProgrammingAssignment3",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
+            "name": "CalculateBill",
+            "request": "launch",
+            "mainClass": "CalculateBill",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
+            "name": "CalculateBill",
+            "request": "launch",
+            "mainClass": "Ch2.CalculateBill",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch",
+            "console": "integratedTerminal",
+            "program": "${file}"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "-u",
+                "bdd",
+                "--timeout",
+                "999999",
+                "--colors",
+                "${workspaceFolder}/test"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "skipFiles": [
+                "<node_internals>/**"
+            ]
+        }
+    ]
+}
