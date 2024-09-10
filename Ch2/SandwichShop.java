@@ -1,3 +1,4 @@
+package Ch2;
 //Alexis West
 //August 28, 2024
 //Lab 4
