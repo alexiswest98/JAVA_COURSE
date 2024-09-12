@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CalulatingLoanFee",
+            "request": "launch",
+            "mainClass": "CalulatingLoanFee",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
             "name": "MakingChange",
             "request": "launch",
             "mainClass": "MakingChange",
