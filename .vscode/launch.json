@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SwitchSandwiches",
+            "request": "launch",
+            "mainClass": "SwitchSandwiches",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
             "name": "CalulatingLoanFee",
             "request": "launch",
             "mainClass": "CalulatingLoanFee",

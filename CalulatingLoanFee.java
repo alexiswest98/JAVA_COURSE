@@ -36,8 +36,8 @@ public class CalulatingLoanFee
         
         double returnedAmount = checkAmount - serviceCharge;
 
-        System.out.println((int)checkAmount + "(amount of check)\n" +
-                            (int)serviceCharge + "(service charge)\n" +
-                            (int)returnedAmount + "(amount returned to you)");
+        System.out.println(checkAmount + " (amount of check)\n" +
+                            serviceCharge + " (service charge)\n" +
+                            returnedAmount + " (amount returned to you)");
     }
 }

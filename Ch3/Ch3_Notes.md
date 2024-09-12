@@ -1,3 +1,5 @@
+# CHAPTER 3 NOTES
+
 ## Not Demorgan's Law
 if(!(userAge > 0 && userAge < 125>))
 is the same as 
