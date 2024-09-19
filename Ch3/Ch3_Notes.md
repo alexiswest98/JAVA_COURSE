@@ -78,3 +78,39 @@ do
      Last_Statement 
 } while (Boolean_Expression);
 ```
+## HOW TO RUN EXECUTION TIME IN JAVA 
+** using System.nanoTime() **
+
+```
+public class Main {
+    public static void main(String[] args) {
+        // Start time
+        long startTime = System.nanoTime();
+        
+        // Method to measure
+        executeMethod();
+        
+        // End time
+        long endTime = System.nanoTime();
+        
+        // Calculate execution time in nanoseconds
+        long duration = endTime - startTime;
+        
+        // Convert to milliseconds (if needed)
+        double durationInMillis = duration / 1_000_000.0;
+        
+        System.out.println("Execution time in nanoseconds: " + duration);
+        System.out.println("Execution time in milliseconds: " + durationInMillis);
+    }
+    
+    public static void executeMethod() {
+        // Sample method (replace with the method you want to measure)
+        for (int i = 0; i < 1000000; i++) {
+            // Some work
+        }
+    }
+}
+
+```
+
+-You can also use the same logic with System.currentTimeMillis(), just swap it out to get the current time of execution
