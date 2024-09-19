@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TestScoresLoop",
+            "request": "launch",
+            "mainClass": "TestScoresLoop",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
             "name": "SwitchSandwiches",
             "request": "launch",
             "mainClass": "SwitchSandwiches",

@@ -114,3 +114,11 @@ public class Main {
 ```
 
 -You can also use the same logic with System.currentTimeMillis(), just swap it out to get the current time of execution
+
+##
+- **a WHILE LOOP** <br>
+    Test is done before iterating. 
+- **a DO, WHILE LOOP** <br>
+    Test is done after iterating. 
+- **a FOR LOOP** <br>
+    Test is done before iterating.
