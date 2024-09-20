@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CompressFiles",
+            "request": "launch",
+            "mainClass": "CompressFiles",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
             "name": "TestScoresLoop",
             "request": "launch",
             "mainClass": "TestScoresLoop",
