@@ -1,3 +1,4 @@
+package Ch4;
 //Alexis West
 //September 20, 2024
 //Lab 9
@@ -47,37 +48,3 @@ public class CompressFiles {
         keyboard.close();
     }
 }
-
-/*
- public class CompressFiles {
-    public static void main(String[] args) 
-    {
-        Scanner keyboard = new Scanner(System.in);
-
-        System.out.println("How many 512-byte blocks are available on the storage device?");
-        int availableBlocks = keyboard.nextInt();
-
-        System.out.println("How big is the file in bytes?");
-        int currentFile = keyboard.nextInt();
-        
-        while(currentFile > 512)
-        {
-            //compress file * .8
-            currentFile = (int)Math.round(currentFile * 0.8);
-
-            //divide file by 512 bytes to get how many blocks
-            //round up for blocks !important
-            int necessaryBlocks = Math.round(currentFile / 512);
-
-            availableBlocks -= necessaryBlocks;
-
-            //return the compressed file and blocks needed 
-            System.out.println("The file will be compressed to " + currentFile + " bytes. That will take " + necessaryBlocks + " blocks. You have " + availableBlocks + " available." );
-        
-            System.out.println("How big is the file in bytes?");
-            currentFile = keyboard.nextInt();
-        }
-        
-    }
-}
- */
