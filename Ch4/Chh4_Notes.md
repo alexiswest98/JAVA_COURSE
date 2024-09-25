@@ -1,8 +1,5 @@
-Sure! Here’s a study guide with explanations and answers to the questions from the exam review for your Intro to OOP Java class (COMP284). I'll break down the key concepts and provide notes on each, along with code examples.
 
----
-
-### **Study Guide for COMP284 Exam - Chapters 3 & 4**
+### **Study Guide for Chapter 4 Exam**
 
 #### 1. **Basic `if` Statements**
 - **`if` statements** are used to make decisions in Java.
@@ -117,7 +114,8 @@ Sure! Here’s a study guide with explanations and answers to the questions from
   }
   ```
 
-- **`do/while` loop** (executes at least once):
+- **`do/while` loop** (executes at least once):</br>
+    -example of a post-test loop
   ```java
   do {
       // code
@@ -221,3 +219,14 @@ if (inputValue >= 10 && inputValue <= 20) {
     Test is done after iterating. 
 - **a FOR LOOP** <br>
     Test is done before iterating.
+
+---
+
+### **Structured Programming has 3 structures**
+• Sequence <br>
+• Decision<br>
+•Repetition<br>
+
+---
+
+### **A priming read is a read that gets initial data**
