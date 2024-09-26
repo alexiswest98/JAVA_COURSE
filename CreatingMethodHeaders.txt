@@ -1,0 +1,12 @@
+//Alexis West
+// Richard Sutor
+// Carlos John Escala
+// Khaing Phyo Zaw
+//Chapter 5 Creating Method Headers
+//This lab will practice writing method headers to create methods.
+
+public int isBig(int num) 
+public int printResult(int num) 
+public int readCount(int num) 
+public int inOrder(int one, int two) 
+public int nextDay(String day) 

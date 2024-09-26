@@ -229,4 +229,15 @@ if (inputValue >= 10 && inputValue <= 20) {
 
 ---
 
-### **A priming read is a read that gets initial data**
+### **A priming read is a read that gets initial data.**
+
+---
+### Two common loop bugs
+- Unintended infinite loops
+- Off-by-one errors
+
+---
+### Three ways to debug
+- Tracing Variables
+- Using System.out.println() statements in code 
+- using debugger 
