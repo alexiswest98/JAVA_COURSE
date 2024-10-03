@@ -1,0 +1,10 @@
+// Alexis West
+// Richard Sutor
+// Carlos John Escala
+// Khaing Phyo Zaw
+
+public boolean isBig(int num) 
+public void printResult(int num) 
+public int readCount() 
+public boolean inOrder(int one, int two) 
+public String nextDay(String day) 
