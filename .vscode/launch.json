@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InOrderTest",
+            "request": "launch",
+            "mainClass": "InOrderTest",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
+            "name": "example",
+            "request": "launch",
+            "mainClass": "Ch5.example",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
             "name": "CompressFiles",
             "request": "launch",
             "mainClass": "CompressFiles",
