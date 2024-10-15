@@ -135,11 +135,55 @@ ClassName obj = new ClassName();
 
 ### Constructor
 - A special method that initializes objects:
-  ```java
-  public ClassName() {
-      // initialization code
-  }
-  ```
+```
+  public class Car {
+    // Instance variables (attributes of a car)
+    private String make;
+    private String model;
+    private int year;
+
+    // Constructor to initialize the Car object
+    //remember that it will have the same name as class 
+    public Car(String make, String model, int year) {
+        this.make = make;    
+        this.model = model;  
+        this.year = year;    
+    }
+
+    // Accessor methods (getters)
+    public String getMake() {
+        return make;
+    }
+
+    // Mutator methods (setters)
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    // Example method to display car details
+    public void displayInfo() {
+        System.out.println("Car: " + make + " " + model + " (" + year + ")");
+    }
+}
+```
+
+**example of using the class in an object**
+```
+public class Main {
+    public static void main(String[] args) {
+        // Creating a Car object using the constructor
+        Car myCar = new Car("Toyota", "Corolla", 2020);
+        
+        // Display car details using a method
+        myCar.displayInfo();  // Output: Car: Toyota Corolla (2020)
+    }
+}
+
+```
 
 ---
 
@@ -161,3 +205,5 @@ ClassName obj = new ClassName();
 - Java determines the method to use based on method name and the number/types of arguments.
 
 ---
+
+
