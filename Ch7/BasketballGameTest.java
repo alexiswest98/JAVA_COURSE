@@ -1,7 +1,8 @@
+package Ch7;
 //Alexis West
-//October 20, 2024
+//October 21, 2024
 //Lab 11
-//This lab will make a test the basketball game object using a loop everytime a team scores.
+//This program will test the Basketball game object and methods for said game to track score.
 
 import java.util.Scanner;
 

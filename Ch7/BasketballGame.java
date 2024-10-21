@@ -1,16 +1,17 @@
+package Ch7;
 //Alexis West
-//October 20, 2024
+//October 21, 2024
 //Lab 11
-//This lab will make a basketball game object that holds two team's scores with various methods attributing to the game.
+//This program will create a Basketball game object and make methods for said game to track score.
 
 // Class representing the basketball game
 class BasketballGame 
 {
-    public String teamAName;
-    public String teamBName;
-    public int teamAScore;
-    public int teamBScore;
-    public boolean isFinished;
+    private String teamAName;
+    private String teamBName;
+    private int teamAScore;
+    private int teamBScore;
+    private boolean isFinished;
 
     // Constructor
     public BasketballGame(String teamAName, String teamBName) 
