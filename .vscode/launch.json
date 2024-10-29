@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountFamilies",
+            "request": "launch",
+            "mainClass": "CountFamilies",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
             "name": "BasketballGameTest",
             "request": "launch",
             "mainClass": "BasketballGameTest",
