@@ -46,7 +46,28 @@ System.out.println(cars.length);
        return newarr;
    }
 ```
+### for loop iteration example
+```
+for (int index = 0; index <temperature.length; index++)
+{
+   temperature[index] = keyboard.nextDouble();
+   sum = sum + temperature[index];
+}
+```
 
+
+### for each iteration example
+```
+for (int value : temperature)
+{
+    if (value < average)
+        System.out.println(value + " below average.");
+    else if (value > average)
+        System.out.println(value + " above average.");
+    else //value == average
+        System.out.println(value + " the average.");
+}
+```
 
 ---
 

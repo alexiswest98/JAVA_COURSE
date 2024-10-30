@@ -2,6 +2,7 @@
 //October 28, 2024
 //Lab 12
 //This program will analyze data from different families and put the records in an array.
+package Ch7;
 
 import java.util.ArrayList;
 import java.util.Arrays;
