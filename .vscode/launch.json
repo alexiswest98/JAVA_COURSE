@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CoffeeShopTest",
+            "request": "launch",
+            "mainClass": "CoffeeShopTest",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
             "name": "CountFamilies",
             "request": "launch",
             "mainClass": "Ch7.CountFamilies",

@@ -1,40 +1,8 @@
 //Alexis West
 //October 30, 2024
 //Lab 14
-//This program will create 
-
-/*
-Make sure you understand parallel arrays.  For an example of parallel arrays, see ParallelArrayDemo.java
-
-Create a class.  Name it CoffeeShop.  The class manages a small coffee shop.  Tell the person using your 
-program which kinds of coffee the shop sells, along with the price of each one.  Ask the user which kind of 
-coffee they want to purchase.  Then ask how many cups they want.  Print a bill.
-
-The types of coffee that the shop sells, along with their costs are;
-regular coffee ($3.00), Cafe Americano ($2.75), latte ($3.25), Cafe mocha ($3,50), cappuccino ($3.50).
-
-Again, this lab should have two classes.  Each class has its own job.  It does not know any details of the 
-other class.  In particular, the CoffeeShop class is the only class that knows the details of how many types 
-of coffee and their prices.:
-
-Sample Dialog for the Lab
-Here is some sample initial dialogue.  You don't have to use it, but do something similar.
-
-Welcome to ---- Coffee Shop!
-Here is our menu.
-1. Regular coffee-$3.00
-2. Cafe Americano-$2.75
-3. Latte-$3.25
-4. Cafe mocha-$3.50
-5. Cappuccino-$3.50
-
-Which type of coffee do you want (1-5):   (You could also say 0-4, but it's nicer to say 1-5.)
-4
-How many cups do you want?
-2
-Your total cost is $7.00
-*/
-
+//This program will create a coffee shop class with specific coffees and prices in separate arrays.
+//It will also have a method that calculates the total when given type and amount parameters.
 
 public class CoffeeShop 
 {
@@ -61,5 +29,14 @@ public class CoffeeShop
     }
 
     //method to calculate the price with input
+    public String CalculateTotal(int type, int amount)
+    {
+        //have to subtract 1 for index 
+        double specPrice = coffeePrices[type - 1];
+        double total = specPrice * (double)amount;
+
+        return String.format("%.2f", total);
+
+    }
 
 }
