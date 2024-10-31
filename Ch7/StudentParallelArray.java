@@ -5,23 +5,23 @@ public class StudentParallelArray {
     private String[] names;
     private int[] ids;
     private double[] grades;
-    private int size;
+    private int count;
 
     // Constructor to initialize arrays with a given capacity
     public StudentParallelArray(int capacity) {
         names = new String[capacity];
         ids = new int[capacity];
         grades = new double[capacity];
-        size = 0;
+        count = 0;
     }
 
     // Method to add a new student
     public void addStudent(String name, int id, double grade) {
-        if (size < names.length) {
-            names[size] = name;
-            ids[size] = id;
-            grades[size] = grade;
-            size++;
+        if (count < names.length) {
+            names[count] = name;
+            ids[count] = id;
+            grades[count] = grade;
+            count++;
         } else {
             System.out.println("No more space to add new students.");
         }
@@ -30,14 +30,14 @@ public class StudentParallelArray {
     // Method to print student information
     public void printStudents() {
         System.out.println("Student Information:");
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < count; i++) {
             System.out.println("Name: " + names[i] + ", ID: " + ids[i] + ", Grade: " + grades[i]);
         }
     }
 
     // Method to get the grade of a student by ID
     public double getGradeById(int id) {
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < count; i++) {
             if (ids[i] == id) {
                 return grades[i];
             }
