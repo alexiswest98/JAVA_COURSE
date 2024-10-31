@@ -1,8 +1,8 @@
-//Alexis West
-//October 28, 2024
-//Lab 12
-//This program will analyze data from different families and put the records in an array.
 package Ch7;
+//Alexis West
+//October 30, 2024
+//Lab 12
+//This program will count the number of families whose income is below a certain value.
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -10,7 +10,7 @@ import java.util.Scanner;
 public class AnalyzeArrays {
     public static void main(String[] args)
     {
-        
+
         Scanner keyboard = new Scanner(System.in);
         System.out.println("How many numbers will you enter?");
         int arraySize = keyboard.nextInt();

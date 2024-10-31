@@ -1,0 +1,22 @@
+//Alexis West
+//October 30, 2024
+//Lab 13 Test
+//This program will simulate the terminal when it runs a sample of Analyze Array.
+
+How many numbers will you enter?
+6
+Enter 6 integers, one per line:
+2
+1
+1
+2
+2
+2
+The sum is 10.
+The numbers are
+2, which is 20.0000%% of the sum.
+1, which is 10.0000%% of the sum.
+1, which is 10.0000%% of the sum.
+2, which is 20.0000%% of the sum.
+2, which is 20.0000%% of the sum.
+2, which is 20.0000%% of the sum.

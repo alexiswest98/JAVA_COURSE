@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CountFamilies",
+            "request": "launch",
+            "mainClass": "Ch7.CountFamilies",
+            "projectName": "JAVA_6d0c60f7"
+        },
+        {
+            "type": "java",
             "name": "AnalyzeArrays",
             "request": "launch",
             "mainClass": "AnalyzeArrays",
